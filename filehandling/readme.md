@@ -2,7 +2,7 @@
 
 ### Writing to a file 
 ```java
- import java.io.FileWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class WriteToFile {
@@ -24,6 +24,7 @@ public class WriteToFile {
 
 
 ```
+- we need to import `java.io.FileWriter;` and `java.io.IOException;`
 
 
 ### Reading from a file 
@@ -53,6 +54,10 @@ public class ReadFromFile {
 }
 
 ```
+- we need to import 
+  - `java.io.BufferedReader`
+  - `java.io.FileReader`
+  - `java.io.IOException`
 
 
 ### Appending to a file
@@ -76,7 +81,7 @@ public class AppendToFile {
 }
 
 ```
-
+- we need to import `java.io.FileWriter;` and `java.io.IOException;`
 
 ### Deleting a file in java 
 ```java
@@ -102,3 +107,4 @@ public class FileOperations {
     }
 }
 ```
+- we need to import `java.io.File`
